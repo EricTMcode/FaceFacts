@@ -15,6 +15,8 @@
 		07695F3A2B40577D007B0F44 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07695F392B40577D007B0F44 /* EditPersonView.swift */; };
 		07695F3C2B4060A4007B0F44 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07695F3B2B4060A4007B0F44 /* PeopleView.swift */; };
 		07695F3E2B4067A6007B0F44 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07695F3D2B4067A6007B0F44 /* Event.swift */; };
+		07695F422B406927007B0F44 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07695F412B406927007B0F44 /* EditEventView.swift */; };
+		07695F442B41ADCB007B0F44 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07695F432B41ADCB007B0F44 /* Previewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		07695F392B40577D007B0F44 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 		07695F3B2B4060A4007B0F44 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		07695F3D2B4067A6007B0F44 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		07695F412B406927007B0F44 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		07695F432B41ADCB007B0F44 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,10 @@
 			children = (
 				07695F282B40535F007B0F44 /* FaceFactsApp.swift */,
 				07695F2A2B40535F007B0F44 /* ContentView.swift */,
-				07695F3D2B4067A6007B0F44 /* Event.swift */,
 				07695F3B2B4060A4007B0F44 /* PeopleView.swift */,
 				07695F392B40577D007B0F44 /* EditPersonView.swift */,
+				07695F412B406927007B0F44 /* EditEventView.swift */,
+				07695F432B41ADCB007B0F44 /* Previewer.swift */,
 				07695F382B405467007B0F44 /* Model */,
 				07695F2C2B405360007B0F44 /* Assets.xcassets */,
 				07695F2E2B405360007B0F44 /* Preview Content */,
@@ -82,6 +87,7 @@
 		07695F382B405467007B0F44 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07695F3D2B4067A6007B0F44 /* Event.swift */,
 				07695F362B405461007B0F44 /* Person.swift */,
 			);
 			path = Model;
@@ -160,9 +166,11 @@
 				07695F372B405461007B0F44 /* Person.swift in Sources */,
 				07695F3C2B4060A4007B0F44 /* PeopleView.swift in Sources */,
 				07695F2B2B40535F007B0F44 /* ContentView.swift in Sources */,
+				07695F442B41ADCB007B0F44 /* Previewer.swift in Sources */,
 				07695F292B40535F007B0F44 /* FaceFactsApp.swift in Sources */,
 				07695F3E2B4067A6007B0F44 /* Event.swift in Sources */,
 				07695F3A2B40577D007B0F44 /* EditPersonView.swift in Sources */,
+				07695F422B406927007B0F44 /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
